@@ -1,0 +1,80 @@
+body {
+    background: #e6dda8;
+    padding: 50px;
+}
+h1,
+h2,
+h3 {
+    color: #b32c98;
+    font-family: papyrus;
+}
+img {
+    width: 200px;
+
+h1
+    .highlight_01 {background-color: aqua;}
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: rgb(226, 160, 160);
+    padding: 30px;
+}
+.top-section {
+    display: flex;
+    gap: 100px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+
+#introduction {
+    background: #6a95ea;
+    padding: 20px;
+    border-left: 6px solid #1d1184;
+    flex: 2;
+}
+
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+#introduction p {
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img {
+    width: 500px;
+    border-radius: 12px;
+}
+
+.profile p {
+    font-size: 100%;
+}
+
+.navigation {
+    background: #bb892b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    color: #837fa1;
+    font-weight: bold;
+}
+
+}
