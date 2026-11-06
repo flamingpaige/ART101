@@ -22,8 +22,8 @@ height: center;
    display: flex;
 
 }
-#bucket{width: 100px; position:absolute; right: 6px;}
+#bucket{width: 60px; position:absolute; padding: 60px;}
 
-#pillow{width: 100px; object-position: center;}
+#pillow{width: 100px; object-position: center;margin: 40px;padding: 60px;}
 
 
