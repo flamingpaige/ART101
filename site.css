@@ -1,6 +1,7 @@
 body {
     background: #e6dda8;
     padding: 50px;
+
 }
 h1,
 h2,
@@ -29,7 +30,7 @@ h1
 }
 
 #introduction {
-    background: #6a95ea;
+    background: #74ce60;
     padding: 20px;
     border-left: 6px solid #1d1184;
     flex: 2;
@@ -60,7 +61,7 @@ h1
 }
 
 .navigation {
-    background: #bb2b7f;
+    background: #4edcac;
     padding: 20px;
     border-radius: 12px;
 }
@@ -74,7 +75,7 @@ h1
 }
 
 .navigation a {
-    color: #837fa1;
+    color: #614ef3;
     font-weight: bold;
 }
 
