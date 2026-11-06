@@ -17,12 +17,13 @@ height: center;
    }
 #bill {
     
-  
+  width: 5px;
 
    display: flex;
 
 }
-#bucket{size: 2%; object-position: center;}
+#bucket{width: 100px; position:absolute; right: 5px}
 
+#pillow{width: 100px; object-position: center;}
 
 

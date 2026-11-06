@@ -10,6 +10,7 @@ h3 {
 }
 img {
     width: 200px;
+}
 
 h1
     .highlight_01 {background-color: aqua;}
@@ -59,7 +60,7 @@ h1
 }
 
 .navigation {
-    background: #bb892b;
+    background: #bb2b7f;
     padding: 20px;
     border-radius: 12px;
 }
@@ -77,4 +78,4 @@ h1
     font-weight: bold;
 }
 
-}
+
