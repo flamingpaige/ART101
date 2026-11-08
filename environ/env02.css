@@ -11,10 +11,6 @@ height: center;
         
     color:rgb(255, 255, 255);
 }
-
-.top-section{
-
-   }
 #bill{
     
   width: 450px;
@@ -22,8 +18,7 @@ height: center;
    display: flex;
 
 }
-#bucket{width: 60px; position:absolute; padding: 60px;}
+#bucket{width: 60px; position:absolute; bottom: 1px;}
 
-#pillow{width: 100px; object-position: center;margin: 40px;padding: 60px;}
-
+#pillow{width: 100px; right: 200px;}
 
