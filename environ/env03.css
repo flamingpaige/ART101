@@ -1,0 +1,24 @@
+body{
+background: url(backrooms.png)no-repeat;
+background-size: cover;
+background-position: cover;
+height: center;
+
+}
+
+
+    p {
+        
+    color:rgb(255, 255, 255);
+}
+#bill{
+    
+  width: 450px;
+
+   display: flex;
+
+}
+#bucket{width: 60px; position:absolute; bottom: 1px;}
+
+#pillow{width: 100px; right: 200px;}
+
