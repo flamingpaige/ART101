@@ -15,7 +15,7 @@ let mainEntity = {
     mood: "waiting",
     };
 
-$("pillow").click(function () {
+$(#pillow).click(function () {
     
     let message = "<p>I'm so cold...please rest your head on me?"
     message = message + "<p>My name and occupation are " + pillowCreature.name + ".</p>";
