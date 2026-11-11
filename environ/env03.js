@@ -21,7 +21,7 @@ $("#pillow").click(function () {
     "<p>I'm super old and " + pillowCreature.type + ".</p>" +
     "<p>I'm always here... " + pillowCreature.mood + ".</p>";
     
-    $("#output").html(message);
+    $("#environment-output").html(message);
 
 
 })
