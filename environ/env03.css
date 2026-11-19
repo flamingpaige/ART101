@@ -1,30 +1,23 @@
-body{
-background: url(backrooms.png)no-repeat;
-background-size: cover;
-background-position: cover;
-height: center;
+body {
+    background: url(backrooms.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 #hidden-area {
     position: absolute;
-
     top: 200px;
     left: 500px;
-
     width: 150px;
     height: 150px;
-
 }
 
 #hidden-creature {
     display: none;
-
     position: absolute;
     width: 200px;
-
     top: 200px;
     left: 500px;
-}
-
 }
 
 
@@ -59,3 +52,14 @@ height: center;
     left: 200px;
 }
 
+#environment-output {
+    position: absolute;
+    bottom: 150px;
+    left: 200px;
+    color: white;
+    z-index: 10;
+}
+#bucket {
+    z-index: 100;
+    cursor: pointer;
+}

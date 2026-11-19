@@ -28,8 +28,10 @@ $("#pillow").click(function () {
 
 $("#bucket").click(function () {
 
+    console.log("Bucket clicked!");
+
     let message = "<p>I'm bucket</p>" +
-    "<p>come see my mystery fluid hehe</p>" ;
+    "<p>come see my mystery fluid hehe</p>";
 
     $("#environment-output").html(message);
 });
