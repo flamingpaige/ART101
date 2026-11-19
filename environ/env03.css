@@ -35,7 +35,7 @@ height: center;
 #bill {
     position: absolute;
 
-    width: 450px;
+    width: 600px;
 
     top: 200px;
     left: 600px;
@@ -46,16 +46,16 @@ height: center;
 
     width: 100px;
 
-    top: 600px;
-    left: 700px;
+    top: 800px;
+    left: 750px;
 }
 
 #bucket {
     position: absolute;
 
-    width: 60px;
+    width: 70px;
 
-    bottom: 50px;
-    left: 200px;
+    bottom: 30px;
+    left: 100px;
 }
 
