@@ -23,6 +23,15 @@ $("#pillow").click(function () {
     "<p>I'm always here... " + pillowCreature.mood + ".</p>";
 
     $("#environment-output").html(message);
+
+    });
+
+$("#bucket").click(function () {
+
+    let message = "<p>I'm bucket</p>" +
+    "<p>come see my mystery fluid hehe</p>" ;
+
+    $("#environment-output").html(message);
 });
 
 function changeBackground() {

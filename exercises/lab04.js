@@ -1,27 +1,53 @@
-let count = 0;
-buttonCreature = {
-    name: "Creature Craig",
-    species: "a mystery...",
-    favoriteFood: "the elderly",
-    moods: ["wistful", "melancholy", "murderous", "theatrical", "offputting", "picky"]
+
+let environmentTitle = "It Bill";
+
+let environmentElements = ["bill", "pillow", "bucket", "the walls"];
+
+let mainEntity = {
+    name: "Bill",
+    type: "soft border",
+    mood: "terrifying",
 };
-$("#creature-craig").click(function () {
 
-    count = count + 1;
+let pillowCreature = {
+    name: "pillow",
+    type: "used",
+    mood: "waiting",
+};
 
-    let arrayPosition = count - 1;
+// Pillow interaction
+$("#pillow").click(function () {
 
-    let currentMood = buttonCreature.moods[arrayPosition];
-    
-    let message = "<p>You clicked me " + count + " times.</p>";
-    message = message + "<p>I'm lowkey feeling " + currentMood + ".</p>";
-    message = message + "<p>My name is " + buttonCreature.name + ".</p>";
-    message = message + "<p>My species is " + buttonCreature.species + ".</p>";
-    message = message + "<p>My favorite food is " + buttonCreature.favoriteFood + ".</p>";
+    let message = "<p>I'm so cold...please rest your head on me?</p>" +
+    "<p>My name and occupation are " + pillowCreature.name + ".</p>" +
+    "<p>I'm super old and " + pillowCreature.type + ".</p>" +
+    "<p>I'm always here... " + pillowCreature.mood + ".</p>";
 
-    $("#output").html(message);
+    $("#environment-output").html(message);
 
-   console.log(count);
-   console.log(arrayPosition);
+}); 
+
+$("#bucket").click(function () {
+
+    let message = "<p>I'm bucket</p>" +
+    "<p>come see my mystery fluid hehe</p>";
+
+    $("#environment-output").html(message);
+
+});
+
+function changeBackground() {
+
+    if (document.body.style.backgroundImage.includes("backroomsnight.jpg")) {
+        document.body.style.backgroundImage = "url('backrooms.png')";
+    } else {
+        document.body.style.backgroundImage = "url('backroomsnight.jpg')";
+    }
+
+}
+
+$("#hidden-area").click(function () {
+
+    $("#hidden-creature").show();
 
 });
