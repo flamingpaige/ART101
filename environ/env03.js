@@ -15,7 +15,6 @@ let pillowCreature = {
     mood: "waiting",
 };
 
-// Pillow interaction
 $("#pillow").click(function () {
 
     let message = "<p>I'm so cold...please rest your head on me?</p>" +
@@ -26,7 +25,6 @@ $("#pillow").click(function () {
     $("#environment-output").html(message);
 });
 
-// Background changer
 function changeBackground() {
 
     if (document.body.style.backgroundImage.includes("backroomsnight.jpg")) {
@@ -37,7 +35,6 @@ function changeBackground() {
 
 }
 
-// Hidden creature interaction
 
 $("#hidden-area").click(function () {
 
