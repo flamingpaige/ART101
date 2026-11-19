@@ -4,6 +4,30 @@ background-size: cover;
 background-position: cover;
 height: center;
 
+#hidden-area {
+    position: absolute;
+
+    /* Change these to position the clickable area */
+    top: 200px;
+    left: 500px;
+
+    width: 150px;
+    height: 150px;
+
+    /* Temporarily make this visible for testing */
+    /* background: rgba(255, 0, 0, 0.3); */
+}
+
+#hidden-creature {
+    display: none;
+
+    position: absolute;
+    width: 200px;
+
+    top: 200px;
+    left: 500px;
+}
+
 }
 
 

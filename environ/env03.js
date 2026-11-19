@@ -37,3 +37,10 @@ function changeBackground() {
 
 }
 
+// Hidden creature interaction
+
+$("#hidden-area").click(function () {
+
+    $("#hidden-creature").show();
+
+});
