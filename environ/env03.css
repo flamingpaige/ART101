@@ -3,7 +3,7 @@ background: url(backrooms.png)no-repeat;
 background-size: cover;
 background-position: cover;
 height: center;
-}
+};
 
 #hidden-area {
     position: absolute;
