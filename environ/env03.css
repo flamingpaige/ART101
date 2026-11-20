@@ -1,7 +1,8 @@
-body {
-    background: url(backrooms.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+body{
+background: url(backrooms.png)no-repeat;
+background-size: cover;
+background-position: cover;
+height: center;
 }
 
 #hidden-area {
